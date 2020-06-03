@@ -81,5 +81,8 @@ As noted below in the Further Development Section, it is possible to attempt qui
 Query the FourSqaure website for the top restaurant sites in London
 Use the FourSquare API to get supplemental geographical data about the top sites
 Use the FourSquare API to get top restaurant recommendations closest to each of the top site
-Use open source London income data to provide the user with additional income data
+Use open source London income data to provide the user with additional income data.
+
+Here is a link for income data that this project will utilise: (https://data.london.gov.uk/blog/gla-household-income-estimates/) 
+
 

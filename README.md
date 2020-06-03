@@ -58,11 +58,11 @@ Who this solution is targeted at.
 
 This project will include the following data science workflow processes:
 
-Data Acquisition
-Data Cleansing
-Data Analysis
-Machine Learning
-Prediction
+- Data Acquisition
+- Data Cleansing
+- Data Analysis
+- Machine Learning
+- Prediction
 
 
 ## Section 2: Data

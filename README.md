@@ -78,4 +78,37 @@ As noted below in the Further Development Section, it is possible to attempt qui
 
 Here is a link for income data that this project will utilise: (https://data.london.gov.uk/blog/gla-household-income-estimates/) 
 
-
+The dataset contains data on hourly and weekly earnings by borough level. The boroughs recorded are: 
+- City of London
+- Barking and Dagenham
+- Barnet
+- Bexley
+- Brent
+- Bromley
+- Camden
+- Croydon
+- Ealing
+- Enfield
+- Greenwich
+- Hackney
+- Hammersmith and Fulham
+- Haringey
+- Harrow
+- Havering
+- Hillingdon
+- Hounslow
+- Islington
+- Kensington and Chelsea
+- Kingston upon Thames
+- Lambeth
+- Lewisham
+- Merton
+- Newham
+- Redbridge
+- Richmond upon Thames
+- Southwark
+- Sutton
+- Tower Hamlets
+- Waltham Forest
+- Wandsworth
+- Westminster

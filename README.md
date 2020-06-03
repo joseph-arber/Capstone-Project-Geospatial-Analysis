@@ -47,19 +47,12 @@ My idea for the Capstone Project is to show that when driven by venue and locati
 A high level approach is as follows:
 
 - The restuaranter decides on a city location [in this case London]
-
 - The ForeSquare website is mined for the top venues in the city
-
 - From this list of top venues the list is augmented with additional grographical data
-
 - Using this additional geographical data the top nearby restaurents are selected
-
 - The historical income level within a predetermined distance of all venues are obtained
-
 - A map is presented to the to the traveller showing the selected venues, income statistics of the area.
-
 - The future probability of a change in income happening near or around the selected top sites is also presented to the user, who this solution is targeted at.
-
 - This solution is targeted at the cautious restauranter who is looking to set up a restuarant. The want to see all the main restaurant sites of a city that they have never visited before but at the same time, for whatever reaons unknown, they want to be able to do all that they can to make sure that they have indentified a suitable area where demand for their service will be high.
 
 This project will include the following data science workflow processes:
@@ -78,10 +71,10 @@ In this section, I will describe the data used to solve the problem as described
 
 As noted below in the Further Development Section, it is possible to attempt quite complex and sophisticated scenarios when approaching this problem. However, given the size of the project and for simplicity only the following scenario will be addressed:
 
-Query the FourSqaure website for the top restaurant sites in London
-Use the FourSquare API to get supplemental geographical data about the top sites
-Use the FourSquare API to get top restaurant recommendations closest to each of the top site
-Use open source London income data to provide the user with additional income data.
+- Query the FourSqaure website for the top restaurant sites in London
+- Use the FourSquare API to get supplemental geographical data about the top sites
+- Use the FourSquare API to get top restaurant recommendations closest to each of the top site
+- Use open source London income data to provide the user with additional income data.
 
 Here is a link for income data that this project will utilise: (https://data.london.gov.uk/blog/gla-household-income-estimates/) 
 

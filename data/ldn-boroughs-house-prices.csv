@@ -1,0 +1,35 @@
+﻿land-registry-house-prices-borough,,,,,,
+Code,Area,Year,Measure,Value,Latitude,Longtitude
+E09000001,City of London,Year ending Mar 2017,Mean,"929,037",51.511219,-0.085356585
+E09000002,Barking and Dagenham,Year ending Mar 2017,Mean,"299,383",51.528168,0.147455
+E09000003,Barnet,Year ending Mar 2017,Mean,"590,823",51.576524,-0.24109133
+E09000004,Bexley,Year ending Mar 2017,Mean,"345,354",51.464498,0.10883119
+E09000005,Brent,Year ending Mar 2017,Mean,"518,109",51.540485,-0.29923989
+E09000006,Bromley,Year ending Mar 2017,Mean,"483,847",51.418116,-0.06005384
+E09000007,Camden,Year ending Mar 2017,Mean,"1,029,438",51.52111,-0.13663245
+E09000008,Croydon,Year ending Mar 2017,Mean,"377,366",51.391507,-0.088001197
+E09000009,Ealing,Year ending Mar 2017,Mean,"552,560",51.557029,-0.36226838
+E09000010,Enfield,Year ending Mar 2017,Mean,"459,261",51.655986,-0.030771008
+E09000011,Greenwich,Year ending Mar 2017,Mean,"452,824",51.494518,0.061147796
+E09000012,Hackney,Year ending Mar 2017,Mean,"598,546",51.537786,-0.058199445
+E09000013,Hammersmith and Fulham,Year ending Mar 2017,Mean,"932,931",51.494021,-0.23404066
+E09000014,Haringey,Year ending Mar 2017,Mean,"626,473",51.577471,-0.075169592
+E09000015,Harrow,Year ending Mar 2017,Mean,"511,591",51.564942,-0.35264916
+E09000016,Havering,Year ending Mar 2017,Mean,"366,822",51.582357,0.16220631
+E09000017,Hillingdon,Year ending Mar 2017,Mean,"444,236",51.561614,-0.41259784
+E09000018,Hounslow,Year ending Mar 2017,Mean,"482,235",51.470652,-0.40222253
+E09000019,Islington,Year ending Mar 2017,Mean,"761,601",51.565862,-0.10668179
+E09000020,Kensington and Chelsea,Year ending Mar 2017,Mean,"1,984,323",51.51487,-0.21596838
+E09000021,Kingston upon Thames,Year ending Mar 2017,Mean,"552,448",51.413111,-0.2883252
+E09000022,Lambeth,Year ending Mar 2017,Mean,"588,824",51.501932,-0.1121279
+E09000023,Lewisham,Year ending Mar 2017,Mean,"441,406",51.461242,-0.043613867
+E09000024,Merton,Year ending Mar 2017,Mean,"595,194",51.397268,-0.20022071
+E09000025,Newham,Year ending Mar 2017,Mean,"385,116",51.551824,0.031555963
+E09000026,Redbridge,Year ending Mar 2017,Mean,"429,587",51.59541,0.090994311
+E09000027,Richmond upon Thames,Year ending Mar 2017,Mean,"780,110",51.445391,-0.33872231
+E09000028,Southwark,Year ending Mar 2017,Mean,"651,179",51.490071,-0.055430769
+E09000029,Sutton,Year ending Mar 2017,Mean,"391,484",51.368245,-0.16748303
+E09000030,Tower Hamlets,Year ending Mar 2017,Mean,"527,413",51.510839,-0.030349687
+E09000031,Waltham Forest,Year ending Mar 2017,Mean,"440,634",51.62784,0.004767122
+E09000032,Wandsworth,Year ending Mar 2017,Mean,"788,357",51.470417,-0.16448632
+E09000033,Westminster,Year ending Mar 2017,Mean,"1,609,658",51.510799,-0.11885173

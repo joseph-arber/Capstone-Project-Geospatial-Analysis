@@ -1,14 +1,17 @@
-# Peer-graded Assignment: Segmenting and Clustering Neighborhood Data
+# Peer-graded Assignment: Segmenting and Clustering Geolocation Data
 
 ### This repo contains two projects. 
 
 #### Project 1:
+**What is there to do in Toronto?**
 The first notebook is a detailed analysis of Toronto city neighborhoods. Using the four square API, we extracted data on the different neighborhoods in Toronto, we focussed on the different locations of interest such as restuarants, coffee shops and bars. We then clustered the data to find out what the most common types of restuarant/bar were to each neighborhood. 
 
 
-#### Project 2:
-**What part of London is the best place to open an expensive Italian restaurant?**
-The second notebook explores where in London it would it be best to open a new restuarant. The analysis leverages the four square API to explore different neighborhood's in London. The following questions are answered; what restuarants recieve the best reviews? what restuarants are most popular, and what part of london are they in? Is there a type of restaurant that is consistently more popular than others? This analysis will help anyone that wants to open up a restaurant in London and wants to know if it is a viable option where they intend on opening.
+#### Capstone Project:
+**What part of London is the best place to buy a house?**
+The second notebook explores where in London it would it be best to buy a new home. The analysis leverages the four square API to explore different boroughs of London. The following questions are answered; what boroughs have the best venues? what venues are most popular? Is there a type of venue that is consistently more popular than others? Does venue density affect property prices?
+
+This analysis will help anyone that wants to open up a restaurant in London and wants to know if it is a viable option where they intend on opening.
 
 
 # Capstone Project - The Battle of Neighborhoods
@@ -41,31 +44,35 @@ A link to your Notebook on your Github repository pushed showing your code. (15 
 Your choice of a presentation or blogpost. (10 marks)
 
 
-## Project Idea
+# Project Idea
 
-My idea for the Capstone Project is to show that when driven by venue and location data from FourSquare, backed up with open source income data, that it is possible to present the cautious and nervous restuaranter with a list of possible locations to consider supplementd with a graphics showing the level of income in the region of the venue.
+**Business Problem**: London is a significant metroplitan area. As we all know London has some of the highest property prices in the world, we also know that certain boroughs have significantly higher average property prices than other boroughs, think Kensington and Chelsea compared to Barnet. 
+
+Therefore imagine you were looking to buy a property in London with know apriori knowledge of the area; the variation in costs, the type of restuarants in an area, closeness to the center, what borough would you select and why? - Is it a borough with a lot of venues (venue density), lower prices, or closer to the city center? This project seeks to develop a data driven solution to analyzing london's property prices by borough and venue density. 
+
+**Task**: To see if we can accurately predict London's house prices by borough based on the amount of rated venues within a location.
+
+**Method**: Using the Four Square API to mine location data, we segment venues and locations based on the London borough they reside in. We then use these segments to cluster the data based on the average value of a property for each borough. We then map this data to geographically to explore the variation in house prices in respect to venue density.
+
+Based on definition of our problem, factors that will influence our decission are:
+* number of existing venues (restuarants, gym, places on interest) in the neighborhood 
+* number of and distance to the venues in the borough, if any
+* distance of borough from the city center
+* type of venues in the borough (price, rating etc...)
+
 
 A high level approach is as follows:
 
 <<<<<<< HEAD
-1. The restuaranter decides on a city location [in this case London]
+1. The home buyer decides on a city location [in this case London]
 2. The ForeSquare website is mined for the top venues in the city
 3. From this list of top venues the list is augmented with additional grographical data
-4. Using this additional geographical data the top nearby restaurents are selected
-5. The historical income level within a predetermined distance of all venues are obtained
-6. A map is presented to the to the traveller showing the selected venues, income statistics of the area.
-7. The future probability of a change in income happening near or around the selected top sites is also presented to the user, who this solution is targeted at.
-8. This solution is targeted at the cautious restauranter who is looking to set up a restuarant. The want to see all the main    restaurant sites of a city that they have never visited before but at the same time, for whatever reaons unknown, they want to be able to do all that they can to make sure that they have indentified a suitable area where demand for their service will be high.
+4. Using this additional geographical data the top nearby venues are selected
+5. The historical property price level within a predetermined distance of all venues are obtained
+6. A map is presented to the to the home buyer showing the selected venues, property price statistics of the area.
+7. The future probability of a change in property prices happening near or around the selected top sites is also presented to the user, who this solution is targeted at.
+8. This solution is targeted at the cautious home buyer who is looking to buy a house in London. The want to see all the main    housing sites of a city that they have never visited before but at the same time, for whatever reaons unknown, they want to be able to do all that they can to make sure that they have indentified a suitable area where there is a high venue density and competitive prices.
 =======
-- The restuaranter decides on a city location [in this case London]
-- The ForeSquare website is mined for the top venues in the city
-- From this list of top venues the list is augmented with additional grographical data
-- Using this additional geographical data the top nearby restaurents are selected
-- The historical income level within a predetermined distance of all venues are obtained
-- A map is presented to the to the traveller showing the selected venues, income statistics of the area.
-- The future probability of a change in income happening near or around the selected top sites is also presented to the user, who this solution is targeted at.
-- This solution is targeted at the cautious restauranter who is looking to set up a restuarant. The want to see all the main restaurant sites of a city that they have never visited before but at the same time, for whatever reaons unknown, they want to be able to do all that they can to make sure that they have indentified a suitable area where demand for their service will be high.
->>>>>>> 78012896decc75c4f8f1d76cd0f7bd0ba211760c
 
 This project will include the following data science workflow processes:
 
@@ -76,7 +83,7 @@ This project will include the following data science workflow processes:
 - Prediction
 
 
-## Section 2: Data
+## Data
 
 **Data Description**
 In this section, I will describe the data used to solve the problem as described previously.
@@ -88,39 +95,25 @@ As noted below in the Further Development Section, it is possible to attempt qui
 - Use the FourSquare API to get top restaurant recommendations closest to each of the top site
 - Use open source London income data to provide the user with additional income data.
 
-Here is a link for income data that this project will utilise: (https://data.london.gov.uk/blog/gla-household-income-estimates/) 
 
-The dataset contains data on hourly and weekly earnings by borough level. The boroughs recorded are: 
-- City of London
-- Barking and Dagenham
-- Barnet
-- Bexley
-- Brent
-- Bromley
-- Camden
-- Croydon
-- Ealing
-- Enfield
-- Greenwich
-- Hackney
-- Hammersmith and Fulham
-- Haringey
-- Harrow
-- Havering
-- Hillingdon
-- Hounslow
-- Islington
-- Kensington and Chelsea
-- Kingston upon Thames
-- Lambeth
-- Lewisham
-- Merton
-- Newham
-- Redbridge
-- Richmond upon Thames
-- Southwark
-- Sutton
-- Tower Hamlets
-- Waltham Forest
-- Wandsworth
-- Westminster
+### Data Acquisition: 
+
+1. Four Square API venue data. Loaded data in JSON format then converted it to a pandas df.
+
+
+2. London's property prices data from the london data store: https://data.london.gov.uk/dataset/average-house-prices The dataset contained the **'year', 'average value', 'borough', 'measure'**, we also added the latitude and longitude values for each borough in order to carry out the analyses. 
+
+
+3. Geospatial data from http://martinjc.github.io/UK-GeoJSON/json/eng/topo_eer.json in JSON format allowed us to conduct the geospatial analyses, specifically mapping the property prices to the clustered location data.
+
+
+### Package Dependencies:
+
+- pandas
+- numpy
+- bs4
+- matplotlib
+- json requests
+- folium
+- sklearn
+- geopy

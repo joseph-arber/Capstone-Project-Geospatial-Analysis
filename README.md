@@ -71,7 +71,7 @@ A high level approach is as follows:
 6. A map is presented to the to the home buyer showing the selected venues, property price statistics of the area.
 7. The future probability of a change in property prices happening near or around the selected top sites is also presented to the user, who this solution is targeted at.
 8. This solution is targeted at the cautious home buyer who is looking to buy a house in London. The want to see all the main    housing sites of a city that they have never visited before but at the same time, for whatever reaons unknown, they want to be able to do all that they can to make sure that they have indentified a suitable area where there is a high venue density and competitive prices.
-=======
+
 
 This project will include the following data science workflow processes:
 
@@ -116,3 +116,13 @@ As noted below in the Further Development Section, it is possible to attempt qui
 - folium
 - sklearn
 - geopy
+
+
+# Discussion:
+
+From the analyses conduced above we can seen that there is a lot of **variation** in London property prices. There is also a high venue density in London and a lot of the **venues** are located in. The key takeaway is that we have a number of variables to segment on. This thinking allowed us to **cluster** the data with the **K-means algorithm**, setting a higher K provided more interesting results but we must acknowledge the risk of **overfitting** in cases such as this.
+
+After segmenting the data by clustering, we then performed data analysis on this information by adding the coordinates of the boroughs of London in relation to the average property prices of these boroughs. 
+
+Future studies could perhaps take into account the quality of each venue, price and rating for instance. This could be an effective predictor of expected property prices. For instance, properties closer to mesuems and 5 star restaurants with great ratings could be far higher. Utlimatley this would improve our data driven decision making process.
+

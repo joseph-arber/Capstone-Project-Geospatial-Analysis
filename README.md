@@ -63,7 +63,6 @@ Based on definition of our problem, factors that will influence our decission ar
 
 A high level approach is as follows:
 
-<<<<<<< HEAD
 1. The home buyer decides on a city location [in this case London]
 2. The ForeSquare website is mined for the top venues in the city
 3. From this list of top venues the list is augmented with additional grographical data

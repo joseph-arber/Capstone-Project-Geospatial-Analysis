@@ -1,4 +1,4 @@
-# Peer-graded Assignment: Segmenting and Clustering Geolocation Data
+# Peer-graded Assignment: Segmenting and Clustering Geospatial Data with API
 
 ### This repo contains two projects. 
 

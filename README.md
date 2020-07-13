@@ -27,7 +27,6 @@ Clearly define a problem or an idea of your choice, where you would need to leve
 ### Part 2 [Week 1]
 Describe the data that you will be using to solve the problem or execute your idea. Remember that you will need to use the Foursquare location data to solve the problem or execute your idea. You can absolutely use other datasets in combination with the Foursquare location data. So make sure that you provide adequate explanation and discussion, with examples, of the data that you will be using, even if it is only Foursquare location data.
 
-This submission will eventually become your Data section in your final report. So I recommend that you push the report (having your Data section) to your Github repository and submit a link to it.
 
 ### Part 3 [Week 2]
 In this week, you will continue working on your capstone project. Please remember by the end of this week, you will need to submit the following:
@@ -39,8 +38,7 @@ Methodology section which represents the main component of the report where you 
 Results section where you discuss the results.
 Discussion section where you discuss any observations you noted and any recommendations you can make based on the results.
 Conclusion section where you conclude the report.
-A link to your Notebook on your Github repository pushed showing your code. (15 marks).
-Your choice of a presentation or blogpost. (10 marks)
+
 
 
 # Project Idea
